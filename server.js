@@ -12,8 +12,6 @@ const PORT = process.env.PORT || 5555;
 
 const server = express();
 
-let locations = {};
-
 server.use( cors() );
 
 //////////// LOCATION /////////////
